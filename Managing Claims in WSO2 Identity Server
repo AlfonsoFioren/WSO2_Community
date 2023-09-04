@@ -1,0 +1,65 @@
+**Introduction**
+
+WSO2 Identity Server (WSO2 IS) provides a comprehensive solution for identity and access management. One of its prominent features is the management of claims, which are essentially pieces of information about a user, such as their first name, last name, email address, etc. This guide will walk you through the process of managing claims in WSO2 IS.
+
+
+**1. Understanding Claims**
+
+Before diving into the management of claims, it's essential to understand what claims are and why they are critical:
+
+- **What are Claims?** Claims are attributes related to the user. They can be any information like the user's email, name, role, etc.
+  
+- **Importance of Claims:** Claims allow for fine-grained control over user attributes and can be used in various scenarios like access control, user profile management, and more.
+
+
+**2. Accessing the Claim Management Section**
+
+To access and manage claims:
+
+1. Log in to the WSO2 IS management console.
+2. Navigate to the `Main` menu, select `Identity`, and then choose `Claims`.
+
+
+**3. Adding a New Claim Mapping**
+
+Claim mappings allow you to map a claim URI from the Identity Provider to a claim URI in WSO2 IS.
+
+1. In the `Claims` section, click on `Add`.
+2. Select a claim dialect from the dropdown or add a new one.
+3. Fill in the necessary information, including Claim URI, Display Name, Description, and Mapped Attribute.
+4. Click `Add` to save your new claim mapping.
+
+
+**4. Editing Existing Claim Mappings**
+
+You may need to edit claim mappings to reflect changes in your organization's requirements:
+
+1. Under the `Claims` section, select `List`.
+2. Choose the claim mapping you wish to edit.
+3. Modify the necessary fields and click `Update` to save changes.
+
+
+**5. Deleting Claim Mappings**
+
+If a particular claim mapping is no longer required, you can delete it:
+
+1. Go to the `List` under `Claims`.
+2. Find the claim mapping you want to remove and click `Delete`.
+3. Confirm your action in the popup dialog.
+
+
+**6. Managing External Claims**
+
+External claims are claims defined for a particular claim dialect. These can be associated with external identity providers.
+
+1. In the `Claims` section, select `External Claims`.
+2. Here you can `Add`, `Edit`, or `Delete` external claims similar to claim mappings.
+
+
+**7. Best Practices for Claim Management**
+
+- Always provide descriptive names for claim URIs to ensure clarity.
+  
+- Regularly review and clean up unused claim mappings to maintain optimal performance and clarity.
+  
+- Be cautious when deleting or modifying claim mappings, as these can affect existing configurations and integrations.
