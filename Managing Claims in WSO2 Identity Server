@@ -48,7 +48,7 @@ If a particular claim mapping is no longer required, you can delete it:
 3. Confirm your action in the popup dialog.
 
 
-**6. Managing External Claims**
+6. Managing External Claims
 
 External claims are claims defined for a particular claim dialect. These can be associated with external identity providers.
 
@@ -56,7 +56,7 @@ External claims are claims defined for a particular claim dialect. These can be 
 2. Here you can `Add`, `Edit`, or `Delete` external claims similar to claim mappings.
 
 
-**7. Best Practices for Claim Management**
+7. Best Practices for Claim Management
 
 - Always provide descriptive names for claim URIs to ensure clarity.
   
